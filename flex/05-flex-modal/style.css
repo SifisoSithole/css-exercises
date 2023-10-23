@@ -15,9 +15,27 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  margin-bottom: 8px;
+}
+
 .modal {
+  display: flex;
+  gap: 16px;
   background: white;
   width: 480px;
+  padding: 16px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -29,6 +47,7 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  flex-shrink: 0;
   border-radius: 50%;
   display: flex;
   align-items: center;
